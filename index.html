@@ -10,6 +10,8 @@
   </head>
   <body>
     <h1> What's in a Name?</h1>
-    <button onclick= "clickOMatic();"> Click me!</button>
+    <div x-data = "{name: 'Jeff', 'Maria', 'Tom', 'Bob', 'Charlie', 'Sara', 'Diana', 'Sam', 'Eva'};"> 
+      <button @click = "alert(name[1])"> Generate a Random Name</button>
+    </div>
   </body>
 </html>

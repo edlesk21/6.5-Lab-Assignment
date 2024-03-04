@@ -1,3 +1,0 @@
-function clickOMatic() {
-    alert('Hello!');
-}
