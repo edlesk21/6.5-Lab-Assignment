@@ -1,4 +1,4 @@
 // Add JavaScript below
-function clickOmatic(){
-    alert('Clicked!')
+function clickOmatic() {
+    alert('Clicked!');
 }
